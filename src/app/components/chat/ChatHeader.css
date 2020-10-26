@@ -1,0 +1,9 @@
+.chatHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.chatHeader__right > * {
+    margin-left: 0.5em;
+}

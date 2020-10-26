@@ -1,0 +1,25 @@
+.sidebarChannels {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarChannels__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 0;
+    color: var(--text-secondary-color);
+}
+
+.sidebarChannels__headerTop {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.sidebarChannels__list {
+    overflow-y: auto;
+    flex: 1 1 auto
+}
+

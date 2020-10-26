@@ -1,0 +1,7 @@
+.sidebarChannel .sidebarChannelOptions__button {
+    visibility: hidden;
+}
+
+.sidebarChannel.isHovering .sidebarChannelOptions__button {
+    visibility: visible;
+}

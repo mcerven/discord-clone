@@ -1,0 +1,31 @@
+.message {
+    display: flex;
+    padding: 0.8em 0.7em;
+}
+
+.message__content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8em;
+}
+
+.message__user {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-primary-color);
+}
+
+.message__timestamp {
+    font-size: 0.9rem;
+    margin-left: 0.5em;
+    color: rgb(150, 150, 150);;
+}
+
+.message button {
+    color: rgb(150, 150, 150);;
+}
+
+.message__content p {
+    font-size: 1.1rem;
+    color: var(--text-primary-color);
+}

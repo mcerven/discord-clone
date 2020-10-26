@@ -1,0 +1,13 @@
+.sidebarChannel {
+    color: var(--text-secondary-color);
+    font-size: 1.1rem;
+    padding: 0.7rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebarChannel.selected {
+    color: var(--text-primary-color);
+}
